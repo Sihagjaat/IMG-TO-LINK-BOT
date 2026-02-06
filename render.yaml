@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: Cantarella-imgtolink-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    autoDeploy: false
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: MONGO_URL
+        sync: false
+      - key: ADMINS
+        sync: false
+      - key: FORCE_SUB_CHANNEL
+        sync: false
+      - key: LOG_CHANNEL
+        sync: false
