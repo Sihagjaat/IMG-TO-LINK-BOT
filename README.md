@@ -1,10 +1,5 @@
 # Telegraph Cloud Uploader Bot
 
-<p align="center">
-  <a href="https://github.com/cantarella-wuwa/imgtolink">
-    <img src="https://graph.org/file/6bed52e35ced794b63290.jpg" alt="Logo" width="300" height="300">
-  </a>
-</p>
 
 <p align="center">
     <b>A powerful Telegram bot to upload media to Catbox.moe.</b>
